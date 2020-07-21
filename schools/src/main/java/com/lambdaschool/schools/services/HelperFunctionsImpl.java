@@ -28,7 +28,7 @@ public class HelperFunctionsImpl implements HelperFunctions
         //Instanitae the validation error(from the class we created). Set the code equal to the invalid value found on cv,
         //set the message equal to the message found on cv. Then, add it to the list we created outside of the loop.
         //Return the list!
-        
+
         if (cause != null)
         {
             ConstraintViolationException ex = (ConstraintViolationException) cause;
